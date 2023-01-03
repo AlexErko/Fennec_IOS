@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD38F613296457A000255044 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD38F612296457A000255044 /* AppDelegate.swift */; };
+		DD38F615296457A000255044 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD38F614296457A000255044 /* SceneDelegate.swift */; };
+		DD38F617296457A000255044 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD38F616296457A000255044 /* ViewController.swift */; };
+		DD38F61C296457A300255044 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD38F61B296457A300255044 /* Assets.xcassets */; };
+		DD38F61F296457A300255044 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD38F61D296457A300255044 /* LaunchScreen.storyboard */; };
+		DD38F62A296457A400255044 /* FennecTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD38F629296457A400255044 /* FennecTests.swift */; };
+		DD38F634296457A400255044 /* FennecUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD38F633296457A400255044 /* FennecUITests.swift */; };
+		DD38F636296457A400255044 /* FennecUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD38F635296457A400255044 /* FennecUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD38F626296457A400255044 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD38F607296457A000255044 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD38F60E296457A000255044;
+			remoteInfo = Fennec;
+		};
+		DD38F630296457A400255044 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD38F607296457A000255044 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD38F60E296457A000255044;
+			remoteInfo = Fennec;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD38F60F296457A000255044 /* Fennec.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fennec.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD38F612296457A000255044 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD38F614296457A000255044 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DD38F616296457A000255044 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD38F61B296457A300255044 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD38F61E296457A300255044 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD38F620296457A300255044 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD38F625296457A400255044 /* FennecTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FennecTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD38F629296457A400255044 /* FennecTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FennecTests.swift; sourceTree = "<group>"; };
+		DD38F62F296457A400255044 /* FennecUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FennecUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD38F633296457A400255044 /* FennecUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FennecUITests.swift; sourceTree = "<group>"; };
+		DD38F635296457A400255044 /* FennecUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FennecUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD38F60C296457A000255044 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD38F622296457A400255044 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD38F62C296457A400255044 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD38F606296457A000255044 = {
+			isa = PBXGroup;
+			children = (
+				DD38F611296457A000255044 /* Fennec */,
+				DD38F628296457A400255044 /* FennecTests */,
+				DD38F632296457A400255044 /* FennecUITests */,
+				DD38F610296457A000255044 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD38F610296457A000255044 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD38F60F296457A000255044 /* Fennec.app */,
+				DD38F625296457A400255044 /* FennecTests.xctest */,
+				DD38F62F296457A400255044 /* FennecUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD38F611296457A000255044 /* Fennec */ = {
+			isa = PBXGroup;
+			children = (
+				DD38F612296457A000255044 /* AppDelegate.swift */,
+				DD38F614296457A000255044 /* SceneDelegate.swift */,
+				DD38F616296457A000255044 /* ViewController.swift */,
+				DD38F61B296457A300255044 /* Assets.xcassets */,
+				DD38F61D296457A300255044 /* LaunchScreen.storyboard */,
+				DD38F620296457A300255044 /* Info.plist */,
+			);
+			path = Fennec;
+			sourceTree = "<group>";
+		};
+		DD38F628296457A400255044 /* FennecTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD38F629296457A400255044 /* FennecTests.swift */,
+			);
+			path = FennecTests;
+			sourceTree = "<group>";
+		};
+		DD38F632296457A400255044 /* FennecUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD38F633296457A400255044 /* FennecUITests.swift */,
+				DD38F635296457A400255044 /* FennecUITestsLaunchTests.swift */,
+			);
+			path = FennecUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD38F60E296457A000255044 /* Fennec */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD38F639296457A400255044 /* Build configuration list for PBXNativeTarget "Fennec" */;
+			buildPhases = (
+				DD38F60B296457A000255044 /* Sources */,
+				DD38F60C296457A000255044 /* Frameworks */,
+				DD38F60D296457A000255044 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fennec;
+			productName = Fennec;
+			productReference = DD38F60F296457A000255044 /* Fennec.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD38F624296457A400255044 /* FennecTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD38F63C296457A400255044 /* Build configuration list for PBXNativeTarget "FennecTests" */;
+			buildPhases = (
+				DD38F621296457A400255044 /* Sources */,
+				DD38F622296457A400255044 /* Frameworks */,
+				DD38F623296457A400255044 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD38F627296457A400255044 /* PBXTargetDependency */,
+			);
+			name = FennecTests;
+			productName = FennecTests;
+			productReference = DD38F625296457A400255044 /* FennecTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD38F62E296457A400255044 /* FennecUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD38F63F296457A400255044 /* Build configuration list for PBXNativeTarget "FennecUITests" */;
+			buildPhases = (
+				DD38F62B296457A400255044 /* Sources */,
+				DD38F62C296457A400255044 /* Frameworks */,
+				DD38F62D296457A400255044 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD38F631296457A400255044 /* PBXTargetDependency */,
+			);
+			name = FennecUITests;
+			productName = FennecUITests;
+			productReference = DD38F62F296457A400255044 /* FennecUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD38F607296457A000255044 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					DD38F60E296457A000255044 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					DD38F624296457A400255044 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = DD38F60E296457A000255044;
+					};
+					DD38F62E296457A400255044 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = DD38F60E296457A000255044;
+					};
+				};
+			};
+			buildConfigurationList = DD38F60A296457A000255044 /* Build configuration list for PBXProject "Fennec" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD38F606296457A000255044;
+			productRefGroup = DD38F610296457A000255044 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD38F60E296457A000255044 /* Fennec */,
+				DD38F624296457A400255044 /* FennecTests */,
+				DD38F62E296457A400255044 /* FennecUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD38F60D296457A000255044 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD38F61F296457A300255044 /* LaunchScreen.storyboard in Resources */,
+				DD38F61C296457A300255044 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD38F623296457A400255044 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD38F62D296457A400255044 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD38F60B296457A000255044 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD38F617296457A000255044 /* ViewController.swift in Sources */,
+				DD38F613296457A000255044 /* AppDelegate.swift in Sources */,
+				DD38F615296457A000255044 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD38F621296457A400255044 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD38F62A296457A400255044 /* FennecTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD38F62B296457A400255044 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD38F634296457A400255044 /* FennecUITests.swift in Sources */,
+				DD38F636296457A400255044 /* FennecUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD38F627296457A400255044 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD38F60E296457A000255044 /* Fennec */;
+			targetProxy = DD38F626296457A400255044 /* PBXContainerItemProxy */;
+		};
+		DD38F631296457A400255044 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD38F60E296457A000255044 /* Fennec */;
+			targetProxy = DD38F630296457A400255044 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD38F61D296457A300255044 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD38F61E296457A300255044 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD38F637296457A400255044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD38F638296457A400255044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD38F63A296457A400255044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 43H6M384WT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Fennec/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ios.ua.in.fennec;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD38F63B296457A400255044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 43H6M384WT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Fennec/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ios.ua.in.fennec;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DD38F63D296457A400255044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 43H6M384WT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = OleksiiYerko.FennecTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fennec.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fennec";
+			};
+			name = Debug;
+		};
+		DD38F63E296457A400255044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 43H6M384WT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = OleksiiYerko.FennecTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fennec.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fennec";
+			};
+			name = Release;
+		};
+		DD38F640296457A400255044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 43H6M384WT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = OleksiiYerko.FennecUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fennec;
+			};
+			name = Debug;
+		};
+		DD38F641296457A400255044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 43H6M384WT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = OleksiiYerko.FennecUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fennec;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD38F60A296457A000255044 /* Build configuration list for PBXProject "Fennec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD38F637296457A400255044 /* Debug */,
+				DD38F638296457A400255044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD38F639296457A400255044 /* Build configuration list for PBXNativeTarget "Fennec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD38F63A296457A400255044 /* Debug */,
+				DD38F63B296457A400255044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD38F63C296457A400255044 /* Build configuration list for PBXNativeTarget "FennecTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD38F63D296457A400255044 /* Debug */,
+				DD38F63E296457A400255044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD38F63F296457A400255044 /* Build configuration list for PBXNativeTarget "FennecUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD38F640296457A400255044 /* Debug */,
+				DD38F641296457A400255044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD38F607296457A000255044 /* Project object */;
+}
